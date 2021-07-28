@@ -1,0 +1,266 @@
+* {
+    margin: 0; 
+    padding: 0;
+    box-sizing: border-box;
+    }
+
+.borde {
+    text-align: center;
+    height: 400px;
+}
+.margenes {
+    margin: 20px 450px;
+    }
+
+.menu {
+    padding: 70px 100px;
+    }
+
+.containerIndex {
+    margin-top: 0px;
+}
+
+.divContainer {
+    width: 96%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.divImage {
+    width: 90%;
+    height: auto;
+}
+
+div.container-fluid {
+    margin-right: 0;
+    padding-right: 0;
+}
+
+div.row {
+    margin-right: 0;
+    padding-right: 0;
+}
+
+.columna {
+    padding-left: 25px;
+    padding-right: 0px;
+}
+
+.formContacto{
+    margin: 20px 0px 20px 0px;
+}
+
+/*Esto lo aplique a parrafos*/
+.paddingA {
+    text-align: center;
+    }
+
+html {
+    background-color: white;
+    }
+
+.header {
+    width: 100%;
+    height: 40vh;
+    background-image: url(img/Background.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 100%;
+    margin: 0px 30px 0px -10px;
+    }
+
+
+
+body {
+    height: 1000px;
+    font-family: "roboto", "sans serif";
+    }
+
+.main {
+    color: hotpink;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    }
+
+.table {
+        background-color: none;
+        caption-side: bottom;
+        border-collapse: collapse;
+        font-family: "roboto", "sans serif";
+        font-size: .8rem;
+        margin: 0 auto;
+        text-align: center;
+        justify-content: center;
+        }
+
+td, th {
+    border: 2px solid rgb(190, 190, 190);
+    padding: 5px 10px;
+    }
+
+td {
+    text-align: center;
+    }
+
+h1 a {
+    color: hotpink;
+    text-decoration: none;
+    text-align: center;
+    }
+
+div {
+    padding: 10px 30px;
+    }
+
+h1 {
+    color: hotpink;
+    text-align: center;
+    font-size: 2em;
+    }
+
+.h1 {
+    color: hotpink;
+    margin: 10px;
+    text-align: center;
+    padding: 30px 50px;
+    }
+
+section h1 {
+    color: hotpink;
+    margin: 20px 40px 0px 110px;
+    }
+
+p {
+    color: hotpink;
+    font-size: 1em;
+    text-align: center;
+    }
+
+section p {
+    padding: 0;
+    }
+
+h2 {
+    color: hotpink;
+    font-size: 1.5em;
+    margin: 20px 30px 20px 10px;
+    }
+
+div h2 {
+    text-align: center;
+    color: hotpink;
+}
+
+h2 a{
+    text-decoration: none;
+    color: hotpink;
+}
+
+.btnMargin {
+    margin: 0px 150px;
+    }
+
+.footer {
+    display: flex;
+    margin: 5px;
+    justify-content: center;
+    }
+
+.footerP {
+    color: hotpink;
+    margin: 0px 30px;
+    }
+
+.grad {
+    background-image: linear-gradient(315deg, #f9d29d 0%, #ffd8cb 74%);
+    }
+
+/*catalogos*/
+.catalogos {
+    align-content: left;
+    margin: 0 80px;
+    }
+
+.foto {
+    margin: 20px 50px;
+    }
+
+/*Cuidado de la piel*/
+.subtitle {
+    margin: 0px 50px 20px 50px;
+    }
+
+.imaHumectante {
+    margin: 0px 100px;
+}
+
+/*Mquillaje*/
+.ima4 {
+    margin: 0px 30px 20px 0px;
+    }
+
+/*Quiero ser consultora*/
+.form {
+    margin: 20px 80px;
+    }
+
+.body {
+    margin: 0px 20px;
+    }
+
+.pColor {
+    color: palevioletred;
+    }
+
+.gradConsultora {
+    background-image: linear-gradient(315deg, #d8dede 0%, #e5bdf6 74%);
+    text-align: center;
+    margin: 0px 60px 0px 20px;
+    }
+
+.carrusel {
+    color:rgb(180, 17, 72) ;
+    }
+
+/*Sobre Lorelay*/
+.parrafo {
+    margin: 30px 70px 0px 20px;
+    }
+
+.imaLorelay {
+    margin: 10px 50px 0px 0px;
+}
+
+/*Transformaciones y animaciones*/
+
+@keyframes contacto {
+    0%{font-size: 18px; }
+    25%{font-size: 22px; }
+    50%{font-size: 26px; }
+    75%{font-size: 30px; }
+    100%{font-size: 32px; }
+    }
+
+.key {
+    animation-name: contacto;
+    animation-iteration-count: infinite;
+    animation-timing-function: cubic-bezier(.17,.67,.83,.67);
+    animation-duration: 2s;
+    animation-delay: 0s;
+    } 
+
+.logo {
+    width: 50px;
+    height: 50px;
+    transition: all 2s;
+    }
+
+.logo:hover {
+    width: 100px;
+    height: 100px;
+    padding: 20px;
+    }
+
+    
+
