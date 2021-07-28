@@ -161,17 +161,6 @@ h2 a{
     margin: 0px 150px;
     }
 
-.footer {
-    display: flex;
-    margin: 5px;
-    justify-content: center;
-    }
-
-.footerP {
-    color: hotpink;
-    margin: 0px 30px;
-    }
-
 .grad {
     background-image: linear-gradient(315deg, #f9d29d 0%, #ffd8cb 74%);
     }
